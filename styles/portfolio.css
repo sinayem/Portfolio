@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+    margin-top: 1px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 68px;
+}
+
+
+
+.text-primary {
+    color: #2ECC71;
+}
+
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    height: 64px;
+    border-radius: 5px;
+    background: #2ECC71;
+    border: 0px;
+    padding: 18px 36px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 226px;
+
+}
+
+.banner-subtitle {
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-weight: 700px;
+    font-size: 85px;
+}
+
+.banner-des {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main */
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* about */
+.about {
+    margin-top: 130px;
+    background: #2ECC99;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-des {
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+
+}
+
+.info-des {
+    font-weight: 700px;
+    font-size: 20px;
+}
