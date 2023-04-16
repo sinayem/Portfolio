@@ -208,3 +208,67 @@ textarea {
 input {
     height: 60px;
 }
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
+
+    .banner,
+    .nav,
+    ul,
+    .skills-container,
+    .resume-content,
+    .about-info-container,
+    .about,
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+        padding: 8px 20px;
+    }
+
+    nav ul {
+        gap: 20px;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .nav {
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .btn-primary {
+        padding: 8px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        margin-bottom: 15px;
+        padding: 8px 16px 0px 10px;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .skills-container,
+    .resume-content,
+    .about-info-container,
+    .about,
+    .contact {
+        flex-direction: column;
+        gap: 30px;
+        padding: 18px 30px;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        margin-bottom: 20px;
+        padding: 12px 24px 0px 10px;
+        width: 80%;
+    }
+}
